@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lista de clientes - Clientes de Aseguradora</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="formulario.html">Nuevo cliente</a>
+    <a href="clientes.html">Lista de clientes</a>
+  </nav>
+
+  <main>
+    <h1>Lista de clientes</h1>
+
+    <p id="vacio">Todavía no hay clientes guardados.</p>
+
+    <!-- El cuerpo de la tabla lo llena clientes.js -->
+    <table id="tabla">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Teléfono</th>
+          <th>Tipo de póliza</th>
+          <th>Forma de pago</th>
+        </tr>
+      </thead>
+      <tbody id="cuerpo"></tbody>
+    </table>
+
+    <p><a href="formulario.html">Agregar otro cliente</a></p>
+  </main>
+
+  <script src="clientes.js"></script>
+</body>
+</html>

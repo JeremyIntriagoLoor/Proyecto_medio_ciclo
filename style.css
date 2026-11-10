@@ -1,0 +1,52 @@
+/* Estilos compartidos por las 3 páginas */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #844c8f;
+}
+
+nav {
+  background-color: #550597;
+  padding: 12px;
+}
+
+nav a {
+  color: white;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+main {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(136, 93, 93, 0.973);
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+}
+
+input, select {5
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+}
+
+button {
+  margin-top: 16px;
+  padding: 10px 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #776969;
+  padding: 8px;
+  text-align: left;
+}

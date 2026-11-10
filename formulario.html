@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nuevo cliente - Clientes de Karina</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="formulario.html">Nuevo cliente</a>
+    <a href="clientes.html">Lista de clientes</a>
+  </nav>
+
+  <main>
+    <h1>Nuevo cliente</h1>
+
+    <!-- id="formulario" lo necesita el JavaScript. novalidate: la validación la hace formulario.js -->
+    <form id="formulario" novalidate>
+
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" name="nombre">
+      <span class="error" id="error-nombre"></span>
+
+      <label for="telefono">Teléfono</label>
+      <input type="text" id="telefono" name="telefono">
+      <span class="error" id="error-telefono"></span>
+
+      <label for="aseguradora">Aseguradora</label>
+      <input type="text" id="aseguradora" name="aseguradora">
+      <span class="error" id="error-aseguradora"></span>
+
+      <label for="poliza">Tipo de póliza</label>
+      <select id="poliza" name="poliza">
+        <option value="">Seleccionar...</option>
+        <option value="Vida">Vida</option>
+        <option value="Salud">Salud</option>
+        <option value="Vehículo">Vehículo</option>
+        <option value="Hogar">Hogar</option>
+      </select>
+      <span class="error" id="error-poliza"></span>
+
+      <label for="pago">Forma de pago</label>
+      <select id="pago" name="pago">
+        <option value="">Seleccionar...</option>
+        <option value="Efectivo">Efectivo</option>
+        <option value="Transferencia">Transferencia</option>
+        <option value="Tarjeta">Tarjeta</option>
+      </select>
+      <span class="error" id="error-pago"></span>
+
+      <!-- Cada campo debe tener su propio id y name (antes se repetía "poliza") -->
+      <label for="documentacion">Documentación completa</label>
+      <select id="documentacion" name="documentacion">
+        <option value="">Seleccionar...</option>
+        <option value="Sí">Sí</option>
+        <option value="No">No</option>
+      </select>
+      <span class="error" id="error-documentacion"></span>
+
+      <button type="submit">Guardar</button>
+      <p id="mensaje"></p>
+    </form>
+
+    <p><a href="clientes.html">Ir a la lista de clientes</a></p>
+  </main>
+
+  <script src="formulario.js"></script>
+</body>
+</html>
