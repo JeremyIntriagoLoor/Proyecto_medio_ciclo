@@ -1,5 +1,5 @@
 # Proyecto_medio_ciclo
 Aqui se subiran los avances del proyecto de medio ciclo
-//septimo se verifica si los codigo index.html cumple con los requisitos del WAVE pero sin errores 
+//y octavo se verifica si los codigo clientes.html, formulario.html y index.html cumple con los requisitos de los puntaje de Accesibilidad en Lighthouse 
 
-*index.html:Paso con 0 errores y 0 errores de contraste, logrando una calificación de 10/10 en accesibilidad y una correcta navegacion semantica mediante encabezados y listas.
+*Se tuvieron que ajustar y cambiar los colores en el archivo style.css que aunque paso la sintaxis de la pagina CSS Validation Service en Lighthouse se tuvo que modicar para hacer el sitio web más accesible dentro de las apautas de Lighthouse

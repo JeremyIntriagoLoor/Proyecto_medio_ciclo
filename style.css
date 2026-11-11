@@ -3,50 +3,86 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background-color: #844c8f;
+  background-color: #222222; 
+  color: #ffffff; 
 }
 
 nav {
-  background-color: #550597;
+  background-color: #000000; 
   padding: 12px;
+  border-bottom: 2px solid #ffeb3b; 
 }
 
 nav a {
-  color: white;
+  color: #ffeb3b; 
   margin-right: 16px;
-  text-decoration: none;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 main {
   max-width: 700px;
   margin: 20px auto;
   padding: 20px;
-  background-color: rgba(136, 93, 93, 0.973);
+  background-color: #000000; 
+  color: #ffffff; 
+  border: 1px solid #ffeb3b; 
 }
 
 label {
   display: block;
   margin-top: 12px;
+  color: #ffeb3b; 
+  font-weight: bold;
 }
 
-input,select {
+input, select {
   width: 100%;
   padding: 8px;
   margin-top: 4px;
+  background-color: #ffffff; 
+  color: #000000; 
+  border: 2px solid #000000;
 }
 
 button {
   margin-top: 16px;
   padding: 10px 20px;
+  background-color: #ffeb3b; 
+  color: #000000; 
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffffff; 
+  color: #000000;
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
+  margin-top: 10px;
 }
 
 th, td {
-  border: 1px solid #776969;
+  border: 1px solid #ffffff; 
   padding: 8px;
   text-align: left;
+  color: #ffffff; 
+}
+
+th {
+  background-color: #333333; 
+  color: #ffeb3b; 
+}
+
+a {
+  color: #ffeb3b;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #ffeb3b;
 }
