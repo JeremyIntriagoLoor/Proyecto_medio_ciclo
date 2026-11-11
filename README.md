@@ -1,4 +1,5 @@
 # Proyecto_medio_ciclo
 Aqui se subiran los avances del proyecto de medio ciclo
-//caurto se verifica si el codigo index.html cumple con los resultados del Nu HTML Checker pero sin errores 
-*Validacion de HTML: Paso la verificacion y se completó sin errores ni advertencias
+//quinto se verifica si los codigo clientes.html cumple con los requisitos del WAVE pero sin errores 
+
+*clientes.html:Paso con 0 errores de sintaxis y 0 errores de contraste , valida el correcto uso de la tabla de datos y estructura semántica.
